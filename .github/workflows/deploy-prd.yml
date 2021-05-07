@@ -36,7 +36,7 @@ jobs:
                 "COMMIT_SHA": "${{ github.sha }}"
               }
             }
-  acceptance:
+  acceptance-test:
     needs: deploy-prd
     runs-on: ubuntu-20.04
     steps:
